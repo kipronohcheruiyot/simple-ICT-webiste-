@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cynet General Company Ltd</title>
+<style>
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Fade background overlay with images */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* keyboard */
+      url('https://images.unsplash.com/photo-1595433713924-0d1d7e7a3d0c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* CCTV */
+      url('https://images.unsplash.com/photo-1614278706944-2b3a9e8f5b7c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* biometric attendance machine */
+      url('https://images.unsplash.com/photo-1558980664-8a1f9133f205?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'); /* bar lock */
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center center, center center, center center, center center;
+    background-size: cover, cover, cover, cover;
+    opacity: 0.2; /* adjust transparency for fade effect */
+    z-index: -1;
+  }
+
+  /* Container for all content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Header / Title */
+  h1 {
+    font-size: 2.5em;
+    margin: 40px 0;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Navigation menu styles */
+  nav {
+    margin: 20px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav li {
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff69b4; /* pink buttons */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #ff1493; /* darker pink on hover */
+  }
+
+  /* Section styles */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  text-align: left;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #ff69b4;
+  padding-bottom: 5px;
+}
+
+section p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Contact info styles */
+.contact-info {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 12px 24px;
+  background-color: #ff69b4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff1493;
+}
+
+/* Footer styles */
+footer {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #ffe4e1;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media(max-width: 768px){
+  nav ul {
+    flex-direction: column;
+  }
+  nav a {
+    padding: 10px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Cynet General Company Ltd</h1>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects/Portfolio</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#news">Blog/News</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home / Overview Section -->
+  <section id="home">
+    <h2>Overview of the Company</h2>
+    <p>
+      Cynet General Company Ltd is an ICT-based company that specializes in the installation of CCTV, Internet solutions, and staff attendance biometric systems. Conceptualized in 2017, the company is managed by Kipronoh Cheruiyot, our Managing Director.
+    </p>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Company Profile:</strong> A leading ICT solutions provider since 2017, serving diverse clients with innovative security and networking solutions.</p>
+    <p><strong>Mission & Vision:</strong> To deliver reliable ICT solutions that enhance security and connectivity for businesses and communities.</p>
+    <p><strong>History & Milestones:</strong> Founded in 2017, with significant projects completed in CCTV, internet, and biometric systems.</p>
+    <p><strong>Managing Director's Message:</strong> Kipronoh Cheruiyot emphasizes quality, innovation, and customer satisfaction.</p>
+    <p><strong>Team & Leadership:</strong> Our dedicated team of ICT professionals committed to excellence.</p>
+  </section>
+
+  <!-- Key Services Highlights -->
+  <section id="services">
+    <h2>Key Services Highlights</h2>
+    <ul>
+      <li>CCTV Installation</li>
+      <li>Internet Solutions</li>
+      <li>Staff Attendance Biometric Systems</li>
+      <li>Maintenance & Support</li>
+      <li>Customized Solutions</li>
+    </ul>
+  </section>
+
+  <!-- Latest News and Updates -->
+  <section id="news">
+    <h2>Latest News & Updates</h2>
+    <p>Stay tuned for our latest projects, news, and industry insights.</p>
+  </section>
+
+  <!-- Call-to-action Buttons -->
+  <section id="cta-buttons" style="text-align:center;">
+    <a href="#contact" class="btn">Contact Us</a>
+    <a href="#quote" class="btn">Get a Quote</a>
+  </section>
+
+  <!-- Projects / Portfolio -->
+  <section id="projects">
+    <h2>Projects / Portfolio</h2>
+    <p>Details of past projects, client testimonials, and case studies will be featured here.</p>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h2>Products</h2>
+    <ul>
+      <li>CCTV Cameras & Equipment</li>
+      <li>Network & Internet Devices</li>
+      <li>Biometric Devices</li>
+      <li>Accessories</li>
+    </ul>
+  </section>
+
+  <!-- Blog/News -->
+  <section id="blog">
+    <h2>Industry Insights & Company News</h2>
+    <p>Latest news and insights in the ICT industry.</p>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 0708800015</p>
+      <p><strong>Location:</strong> Kericho County, Kabianga</p>
+      <p><strong>Email:</strong> info@cynetcompany.com</p>
+      <p><strong>Business Hours:</strong> Mon - Sat, 8:00 AM - 6:00 PM</p>
+    </div>
+    <h3>Contact Form</h3>
+    <form>
+      <label>Name:</label><br />
+      <input type="text" name="name" style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+      <label>Email:</label><br />
+      <input type="email" name="email" style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+      <label>Message:</label><br />
+      <textarea name="message" rows="5" style="width:100%; padding:8px; margin-bottom:10px;"></textarea><br />
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div style="margin-top:20px;">
+      <h3>Location Map</h3>
+      <iframe
+        src="https://www.google.com/maps?q=kericho+county+kabianga&output=embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2024 Cynet General Company Ltd. All rights reserved.
+</footer>
+
+</body>
+</html>
