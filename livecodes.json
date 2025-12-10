@@ -1,0 +1,63 @@
+{
+  "title": "DeepAI Code Snippet",
+  "description": "",
+  "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+  "htmlAttrs": "lang=\"en\" class=\"\"",
+  "tags": [],
+  "autoupdate": true,
+  "autosave": false,
+  "autotest": false,
+  "delay": 1500,
+  "formatOnsave": false,
+  "view": "split",
+  "mode": "full",
+  "theme": "dark",
+  "layout": "responsive",
+  "recoverUnsaved": true,
+  "showSpacing": false,
+  "welcome": true,
+  "readonly": false,
+  "allowLangChange": true,
+  "activeEditor": "markup",
+  "markup": {
+    "language": "html",
+    "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>Cynet General Company Ltd</title>\n<style>\n  /* Reset some default styles */\n  * {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n  }\n\n  body {\n    font-family: Arial, sans-serif;\n    background-color: pink;\n    position: relative;\n    min-height: 100vh;\n    overflow-x: hidden;\n  }\n\n  /* Fade background overlay with images */\n  body::before {\n    content: \"\";\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-image: \n      url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* keyboard */\n      url('https://images.unsplash.com/photo-1595433713924-0d1d7e7a3d0c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* CCTV */\n      url('https://images.unsplash.com/photo-1614278706944-2b3a9e8f5b7c?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'), /* biometric attendance machine */\n      url('https://images.unsplash.com/photo-1558980664-8a1f9133f205?ixlib=rb-4.0.4&auto=format&fit=crop&w=1920&q=80'); /* bar lock */\n    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;\n    background-position: center center, center center, center center, center center;\n    background-size: cover, cover, cover, cover;\n    opacity: 0.2; /* adjust transparency for fade effect */\n    z-index: -1;\n  }\n\n  /* Container for all content */\n  .container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    text-align: center;\n  }\n\n  /* Header / Title */\n  h1 {\n    font-size: 2.5em;\n    margin: 40px 0;\n    color: #333;\n    font-weight: bold;\n  }\n\n  /* Navigation menu styles */\n  nav {\n    margin: 20px 0;\n  }\n\n  nav ul {\n    list-style: none;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 15px;\n  }\n\n  nav li {\n  }\n\n  nav a {\n    text-decoration: none;\n    color: #fff;\n    background-color: #ff69b4; /* pink buttons */\n    padding: 10px 20px;\n    border-radius: 5px;\n    transition: background-color 0.3s;\n  }\n\n  nav a:hover {\n    background-color: #ff1493; /* darker pink on hover */\n  }\n\n  /* Section styles */\nsection {\n  margin: 40px 0;\n  padding: 20px;\n  background-color: rgba(255, 255, 255, 0.8);\n  border-radius: 10px;\n  text-align: left;\n}\n\nsection h2 {\n  margin-bottom: 15px;\n  color: #333;\n  border-bottom: 2px solid #ff69b4;\n  padding-bottom: 5px;\n}\n\nsection p {\n  margin-bottom: 10px;\n  line-height: 1.6;\n}\n\n/* Contact info styles */\n.contact-info {\n  margin-top: 20px;\n  font-size: 1.1em;\n}\n\n.contact-info p {\n  margin: 8px 0;\n}\n\n/* Buttons */\n.btn {\n  display: inline-block;\n  margin: 10px 10px 0 0;\n  padding: 12px 24px;\n  background-color: #ff69b4;\n  color: #fff;\n  text-decoration: none;\n  border-radius: 5px;\n  transition: background-color 0.3s;\n}\n\n.btn:hover {\n  background-color: #ff1493;\n}\n\n/* Footer styles */\nfooter {\n  margin: 40px 0;\n  padding: 20px;\n  background-color: #ffe4e1;\n  text-align: center;\n  font-size: 0.9em;\n  color: #555;\n}\n\n/* Responsive adjustments */\n@media(max-width: 768px){\n  nav ul {\n    flex-direction: column;\n  }\n  nav a {\n    padding: 10px;\n  }\n}\n</style>\n</head>\n<body>\n\n<div class=\"container\">\n  <h1>Cynet General Company Ltd</h1>\n\n  <!-- Navigation Menu -->\n  <nav>\n    <ul>\n      <li><a href=\"#home\">Home</a></li>\n      <li><a href=\"#about\">About Us</a></li>\n      <li><a href=\"#services\">Services</a></li>\n      <li><a href=\"#projects\">Projects/Portfolio</a></li>\n      <li><a href=\"#products\">Products</a></li>\n      <li><a href=\"#news\">Blog/News</a></li>\n      <li><a href=\"#contact\">Contact Us</a></li>\n    </ul>\n  </nav>\n\n  <!-- Home / Overview Section -->\n  <section id=\"home\">\n    <h2>Overview of the Company</h2>\n    <p>\n      Cynet General Company Ltd is an ICT-based company that specializes in the installation of CCTV, Internet solutions, and staff attendance biometric systems. Conceptualized in 2017, the company is managed by Kipronoh Cheruiyot, our Managing Director.\n    </p>\n  </section>\n\n  <!-- About Us -->\n  <section id=\"about\">\n    <h2>About Us</h2>\n    <p><strong>Company Profile:</strong> A leading ICT solutions provider since 2017, serving diverse clients with innovative security and networking solutions.</p>\n    <p><strong>Mission & Vision:</strong> To deliver reliable ICT solutions that enhance security and connectivity for businesses and communities.</p>\n    <p><strong>History & Milestones:</strong> Founded in 2017, with significant projects completed in CCTV, internet, and biometric systems.</p>\n    <p><strong>Managing Director's Message:</strong> Kipronoh Cheruiyot emphasizes quality, innovation, and customer satisfaction.</p>\n    <p><strong>Team & Leadership:</strong> Our dedicated team of ICT professionals committed to excellence.</p>\n  </section>\n\n  <!-- Key Services Highlights -->\n  <section id=\"services\">\n    <h2>Key Services Highlights</h2>\n    <ul>\n      <li>CCTV Installation</li>\n      <li>Internet Solutions</li>\n      <li>Staff Attendance Biometric Systems</li>\n      <li>Maintenance & Support</li>\n      <li>Customized Solutions</li>\n    </ul>\n  </section>\n\n  <!-- Latest News and Updates -->\n  <section id=\"news\">\n    <h2>Latest News & Updates</h2>\n    <p>Stay tuned for our latest projects, news, and industry insights.</p>\n  </section>\n\n  <!-- Call-to-action Buttons -->\n  <section id=\"cta-buttons\" style=\"text-align:center;\">\n    <a href=\"#contact\" class=\"btn\">Contact Us</a>\n    <a href=\"#quote\" class=\"btn\">Get a Quote</a>\n  </section>\n\n  <!-- Projects / Portfolio -->\n  <section id=\"projects\">\n    <h2>Projects / Portfolio</h2>\n    <p>Details of past projects, client testimonials, and case studies will be featured here.</p>\n  </section>\n\n  <!-- Products -->\n  <section id=\"products\">\n    <h2>Products</h2>\n    <ul>\n      <li>CCTV Cameras & Equipment</li>\n      <li>Network & Internet Devices</li>\n      <li>Biometric Devices</li>\n      <li>Accessories</li>\n    </ul>\n  </section>\n\n  <!-- Blog/News -->\n  <section id=\"blog\">\n    <h2>Industry Insights & Company News</h2>\n    <p>Latest news and insights in the ICT industry.</p>\n  </section>\n\n  <!-- Contact Us -->\n  <section id=\"contact\">\n    <h2>Contact Us</h2>\n    <div class=\"contact-info\">\n      <p><strong>Phone:</strong> 0708800015</p>\n      <p><strong>Location:</strong> Kericho County, Kabianga</p>\n      <p><strong>Email:</strong> info@cynetcompany.com</p>\n      <p><strong>Business Hours:</strong> Mon - Sat, 8:00 AM - 6:00 PM</p>\n    </div>\n    <h3>Contact Form</h3>\n    <form>\n      <label>Name:</label><br />\n      <input type=\"text\" name=\"name\" style=\"width:100%; padding:8px; margin-bottom:10px;\" /><br />\n      <label>Email:</label><br />\n      <input type=\"email\" name=\"email\" style=\"width:100%; padding:8px; margin-bottom:10px;\" /><br />\n      <label>Message:</label><br />\n      <textarea name=\"message\" rows=\"5\" style=\"width:100%; padding:8px; margin-bottom:10px;\"></textarea><br />\n      <button type=\"submit\" class=\"btn\">Send Message</button>\n    </form>\n    <div style=\"margin-top:20px;\">\n      <h3>Location Map</h3>\n      <iframe\n        src=\"https://www.google.com/maps?q=kericho+county+kabianga&output=embed\"\n        width=\"100%\"\n        height=\"300\"\n        style=\"border:0;\"\n        allowfullscreen=\"\"\n        loading=\"lazy\">\n      </iframe>\n    </div>\n  </section>\n\n</div>\n\n<!-- Footer -->\n<footer>\n  &copy; 2024 Cynet General Company Ltd. All rights reserved.\n</footer>\n\n</body>\n</html>"
+  },
+  "style": {
+    "language": "css",
+    "content": ""
+  },
+  "script": {
+    "language": "javascript",
+    "content": ""
+  },
+  "stylesheets": [],
+  "scripts": [],
+  "cssPreset": "",
+  "imports": {},
+  "types": {},
+  "tests": {
+    "language": "typescript",
+    "content": ""
+  },
+  "tools": {
+    "enabled": "all",
+    "active": "console",
+    "status": "open"
+  },
+  "zoom": 1,
+  "processors": [],
+  "customSettings": {},
+  "useTabs": false,
+  "tabSize": 2,
+  "lineNumbers": true,
+  "wordWrap": false,
+  "closeBrackets": true,
+  "foldRegions": false,
+  "semicolons": true,
+  "singleQuote": false,
+  "trailingComma": true,
+  "emmet": true,
+  "enableAI": false,
+  "version": "47"
+}
